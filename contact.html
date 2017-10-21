@@ -3,63 +3,71 @@
 <head>
 	<meta charset="utf-8">
 	<title>Contact</title>
-	<link rel="stylesheet" type="text/css" href="assets/reset.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" />
-	<link rel="stylesheet" type="text/css" href="assets/style.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 </head>
 <body>
-	<header>
-		<div class="name">Anhelina Yarichevskaya</div>
-		<nav>
-		    <ul>
-			    <li>About</li>
-			    <li>Portfolio</li>
-			    <li>Contact</li>
-		    </ul>
-	    </nav>
-	</header>
+	<div id="page">
+		<header>
+		    <nav>
+		        <ul>
+			        <li class="name">Anhelina Yarichevskaya</li>
+			        <li><a href="index.html">About</a></li>
+			        <li><a href="portfolio.html">Portfolio</a></li>
+			        <li><a href="contact.html">Contact</a></li>
+		        </ul>
+	        </nav>
+	    </header>
 
-	<section>
-		<h1>Contact</h1>
-		<hr />
-		<form name="contact" method="post" action="input1.php">
-			<p>Name:<br />
-			    <input type="text" name="name" />
-		    </p>
-			<p>E-mail:<br />
-				<input type="email" name="email" />
-			</p>
-			<p>Massage<br />
-				<textarea name="message" rows="10" cols="30">
-				</textarea>
-			</p>
-			<p>
-				<input type="submit" value="Submit">
-			</p>
-		</form>
-	</section>
+	    <div class="content">
+		    <section>
+		        <h1>Contact</h1>
+		        <hr />
+		        <form name="contact" method="post" action="input1.php">
+			        <p>Name:<br />
+			            <input type="text" name="name" />
+		            </p>
+			        
+			        <p>E-mail:<br />
+				        <input type="email" name="email" />
+			        </p>
 
-	div class="sidebar">
-		<h2>Connect with Me</h2>
-		<hr />
-		<a href="https://github.com/Anbroyar">
-			<img src="assets/images/github.png" alt="github" />
-		</a>
+			        <p>Massage<br />
+				        <textarea name="message" rows="10" cols="30">
+				        </textarea>
+			        </p>
+
+			        <p class="button">
+				        <input type="submit" value="Submit">
+			        </p>
+		        </form>
+	        </section>
+
+
+	        <div class="sidebar">
+		        <h2>Connect with Me</h2>
+		        <hr />
+		        <a href="https://github.com/Anbroyar">
+			        <img src="assets/images/github.png" alt="github" />
+		        </a>
 		
-		<a href="https://www.linkedin.com/in/anhelina-yarichevskaya-257b50145/">
-			<img src="assets/images/linkedin.png" alt="linkedin" />
-		</a>
+		        <a href="https://www.linkedin.com/in/anhelina-yarichevskaya-257b50145/">
+			        <img src="assets/images/linkedin.png" alt="linkedin" />
+		        </a>
 
-		<a href="https://stackoverflow.com/users/8712024/angelinayar">
-			<img src="assets/images/stackoverflow.png" alt="stackoverflow" />
-		</a>
-	</div>
+		        <a href="https://stackoverflow.com/users/8712024/angelinayar">
+			        <img src="assets/images/stackoverflow.png" alt="stackoverflow" />
+		        </a>
+	        </div>
+	    </div>
 
-	<footer>
-		Copyright
-		<i class="fa fa-copyright" aria-hidden="true"></i>
-		2017 Anhelina Yarichevskaya  
-	</footer>
+	    <footer>
+		    Copyright
+		    <i class="fa fa-copyright" aria-hidden="true"></i>
+		    2017 Anhelina Yarichevskaya  
+	    </footer>
+    </div>
 
 </body>
 </html>
